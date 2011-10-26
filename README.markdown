@@ -1,38 +1,43 @@
-=decoder
+# Decoder #
 
-= Usage
+## Usage ##
 
- >> Decoder.i18n = :en
- >> country = Decoder::Countries[:US]
- >> country.to_s
- => "United States"
- >> state = country[:MA]
- >> state.to_s
- => "Massachusetts"
- 
- Currently the yaml files are still quite incomplete. Please fork and populate!
- 
-= FIPS
+```ruby
+Decoder.i18n = :en
+country = Decoder::Countries[:US]
+country.to_s
+# => "United States"
+
+state = country[:MA]
+state.to_s
+# => "Massachusetts"
+```
+
+Currently the yaml files are still quite incomplete. Please fork and populate!
+
+## FIPS ##
  http://en.wikipedia.org/wiki/Federal_Information_Processing_Standard
  Certain US States have FIPS codes. You can either get the code for a state
  or look up a state by its FIPS code:
- 
- >> Decoder.i18n = :en
- >> country = Decoder::Countries[:US]
- >> state = country[:MA]
- >> state.fips
- => 25
- >> state = country.by_fips(25)
- >> state.to_s
- => "Massachusetts"
- 
-= i18n
+
+```ruby
+Decoder.i18n = :en
+country = Decoder::Countries[:US]
+state = country[:MA]
+state.fips
+# => 25
+state = country.by_fips(25)
+state.to_s
+# => "Massachusetts"
+```
+
+## i18n ##
  When adding a new language please use the ISO 639-1 Code 2-letter standard.
  You can find the appropriate code for a given language here:
  http://www.loc.gov/standards/iso639-2/php/code_list.php
 
-== Note on Patches/Pull Requests
- 
+## Note on Patches/Pull Requests ##
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
@@ -42,6 +47,10 @@
    bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+## Legal ##
 
-Copyright (c) 2009 Brian Cardarella. See LICENSE for details.
+Brian Cardarella &copy; 2011
+
+[@bcardarella](http://twitter.com/bcardarella)
+
+[Licensed under the MIT license](http://www.opensource.org/licenses/mit-license.php)
