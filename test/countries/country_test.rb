@@ -23,7 +23,7 @@ class CountryTest < Test::Unit::TestCase
       setup do
         @country = Decoder::Country.new(:code => "US", :name => "United States")
       end
-      
+
       context "by code" do
         should "return a state object of \"Massachusetts\" for :MA" do
           state = @country[:MA]
@@ -49,7 +49,7 @@ class CountryTest < Test::Unit::TestCase
           assert_equal "Massachusetts", state.name
         end
       end
-      
+
       context "by FIPS" do
         should "return a state object of \"Massachusetts\" for 25" do
           state = @country.by_fips(25)
@@ -75,13 +75,13 @@ class CountryTest < Test::Unit::TestCase
           assert_equal ["Massachusetts", "25"], @country.states["MA"]
         end
       end
-      
+
       context "For a non-FIPS state" do
         should "be a hash of states" do
           assert_equal "Northern Mariana Islands", @country.states["MP"]
         end
       end
-      
+
       context "aliases" do
         should "be equal for #states and #counties" do
           assert_equal @country.states, @country.counties
