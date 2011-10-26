@@ -1,5 +1,4 @@
 require 'yaml'
-require 'common_methods'
 require 'decoder/countries'
 require 'decoder/country'
 require 'decoder/state'
@@ -28,7 +27,7 @@ module Decoder
   end
 
   def self.yaml_file_name
-    "#{File.dirname(__FILE__)}/locales/#{Decoder.i18n}.yml"
+    "#{File.dirname(__FILE__)}/decoder/locales/#{Decoder.i18n}.yml"
   end
 
 end

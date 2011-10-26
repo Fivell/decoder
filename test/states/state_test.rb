@@ -3,7 +3,7 @@ require 'test_helper'
 class StateTest < Test::Unit::TestCase
 
   should "include 'Common Methods' module" do
-    assert_contains Decoder::State.included_modules, CommonMethods
+    assert_contains Decoder::State.included_modules, Decoder::CommonMethods
   end
 
   context "English" do

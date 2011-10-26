@@ -1,6 +1,8 @@
+require 'decoder/common_methods'
+
 module Decoder
   class State
-    include ::CommonMethods
+    include CommonMethods
     attr_accessor :code, :name, :fips
 
     def initialize(args)

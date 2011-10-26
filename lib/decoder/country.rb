@@ -1,6 +1,8 @@
+require 'decoder/common_methods'
+
 module Decoder
   class Country
-    include ::CommonMethods
+    include CommonMethods
     attr_accessor :code, :name
 
     def initialize(args)

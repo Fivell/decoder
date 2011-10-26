@@ -3,7 +3,7 @@ require 'test_helper'
 class CommonMethodsTest < Test::Unit::TestCase
 
   class EmptyClass
-    include CommonMethods
+    include Decoder::CommonMethods
     attr_accessor :code, :name
   end
 
