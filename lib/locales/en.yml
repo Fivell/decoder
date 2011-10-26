@@ -649,7 +649,9 @@
       MI: 
       - Michigan
       - "26"
-      AE: Armed Forces
+      AE: Armed Forces Europe
+      AA: Armed Forces Americas
+      AP: Armed Forces Pacific
       DE: 
       - Delaware
       - "10"
