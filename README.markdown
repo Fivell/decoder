@@ -1,5 +1,7 @@
 # Decoder #
 
+[![Build Status](http://travis-ci.org/bcardarella/decoder.png)](http://travis-ci.org/bcardarella/decoder)
+
 ## Usage ##
 
 ```ruby
