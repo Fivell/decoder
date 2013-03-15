@@ -236,10 +236,6 @@
     :name: Malawi
     :states: {}
 
-  PS:
-    :name: Palestinian Territory, Occupied
-    :states: {}
-
   CO:
     :name: Colombia
     :states: {}
@@ -284,10 +280,6 @@
     :name: Palau
     :states: {}
 
-  CS:
-    :name: Czechoslovakia (former)
-    :states: {}
-
   FO:
     :name: Faroe Islands
     :states: {}
@@ -306,10 +298,6 @@
 
   PY:
     :name: Paraguay
-    :states: {}
-
-  SU:
-    :name: USSR (former)
     :states: {}
 
   BA:
@@ -434,10 +422,6 @@
 
   IS:
     :name: Iceland
-    :states: {}
-
-  YU:
-    :name: Yugoslavia (former)
     :states: {}
 
   BF:
@@ -607,7 +591,6 @@
   US:
     :name: United States
     :states:
-      MP: Northern Mariana Islands
       MT: 
       - Montana
       - "30"
@@ -620,7 +603,6 @@
       ME: 
       - Maine
       - "23"
-      MH: Marshall Islands
       TN: 
       - Tennessee
       - "47"
@@ -636,7 +618,6 @@
       ND: 
       - North Dakota
       - "38"
-      AS: American Samoa
       SC: 
       - South Carolina
       - "45"
@@ -649,9 +630,6 @@
       MI: 
       - Michigan
       - "26"
-      AE: Armed Forces Europe
-      AA: Armed Forces Americas
-      AP: Armed Forces Pacific
       DE: 
       - Delaware
       - "10"
@@ -682,7 +660,6 @@
       AL: 
       - Alabama
       - "01"
-      VI: Virgin Islands
       GA: 
       - Georgia
       - "13"
@@ -744,7 +721,6 @@
       MN: 
       - Minnesota
       - "27"
-      GU: Guam
       MA: 
       - Massachusetts
       - "25"
@@ -757,7 +733,6 @@
       PR: 
       - Puerto Rico
       - "72"
-      FM: Federated States Of Micronesia
       NV: 
       - Nevada
       - "32"
